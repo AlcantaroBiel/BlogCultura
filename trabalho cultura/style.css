@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+header nav{
+    background: rgb(142,30,186);
+    background: linear-gradient(90deg, rgba(142,30,186,1) 0%, rgba(144,30,189,1) 49%, rgba(134,32,175,1) 100%);
+}
+
+header nav img{
+    height: 80px;
+}
+
+.nav-options{
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.nav-options a{
+    color: black;
+    margin-left: 8px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-options a:hover{
+    font-size:23px;
+}
+
+.img-background-home{
+    position:fixed;
+    height: 400px;
+    background-image: url(https://static.escolakids.uol.com.br/2020/03/cultura.jpg);
+}
+
+.gradient-background-home{
+    height: 400px;
+    background: rgba(0,0,0,0.75);
+}
+
+.conteudo-text-home{
+    padding-left: 20px;
+    padding-top: 175px;
+    color:white;
+}
+
+.conteudo-text-home h1{
+    font-size: 50px;
+
+}
+
+.conteudo-text-home p{
+    font-size:20px;
+}
+
+footer{
+    background: rgb(196, 142, 218);
+}
